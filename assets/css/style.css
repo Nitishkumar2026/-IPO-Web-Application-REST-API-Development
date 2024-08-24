@@ -1,0 +1,72 @@
+
+.cookie-consent {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: #212529;
+    padding: 15px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+  }
+  .cookie-consent.show {
+    display: block;
+  }
+  .cookie-consent p {
+    margin: 0;
+    padding-right: 10px;
+  }
+  .cookie-consent .btn {
+    margin: 0 5px;
+  }
+  .btn-accept {
+    background-color: #0c9;
+    color: white;
+    border: none;
+  }
+  .btn-accept:hover {
+    background-color: #ccf5eb;
+    color: #0c9;
+    
+  }
+  .btn-reject {
+    background-color: #F05537;
+    color: white;
+    border: none;
+  }
+  .btn-reject:hover {
+    background-color: #c6442c;
+    color: white;
+  }
+  .qr-widget {
+          position: fixed;
+          bottom: 20px;
+          left: 20px;
+          background-color: white;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          width: 160px;
+          padding: 12px;
+          z-index: 1100;
+          text-align: center;
+      }
+      .qr-widget img {
+          width: 100px;
+          height: 100px;
+          margin-bottom: 10px;
+      }
+      .qr-widget .close-btn {
+          position: absolute;
+          top: 5px;
+          right: 5px;
+          background: none;
+          border: none;
+          font-size: 20px;
+          cursor: pointer;
+      }
+      .store-icons img {
+          width: 18px;
+          height: 20px;
+          margin: 5px;
+      }
